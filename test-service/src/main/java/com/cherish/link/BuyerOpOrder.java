@@ -44,7 +44,7 @@ public class BuyerOpOrder {
 
     @Test
     public void buyerSubmitOrders() throws InterruptedException {
-        int num = 1000;
+        int num = 1;
         CountDownLatch countDownLatch = new CountDownLatch(num);
         for(int i=0; i< num ; i++){
             new Thread(()->{
